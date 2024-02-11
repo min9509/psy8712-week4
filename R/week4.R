@@ -4,4 +4,4 @@ library(tidyverse)
 
 # Data Import
 import_tbl <- read_delim(file = "../data/week4.dat", delim = "-", col_names = c("casenum", "parnum", "stimver", "datadate", "qs"))
-?tidyverse
+str(import_tbl) # summary? glimpse??
